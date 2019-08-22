@@ -1,0 +1,6 @@
+How can we find the average drop-out rate of India for secondary boys for given dataset? 
+There is two approch to find average drop-out rate of india for secondary boys. we can use all india drop out rate but the problem is
+the data avalability as data is not available for 2015. Besides we can use all states drop out rate for secondary boys.In statistics there are
+sevral measure of average we can use airthmatic , geometric and harmonic. but here we should use airthmatic mean by taking sum of all the 
+state wise dropout rate for secondary boys then devide by no of states will give better result . it is time series data we can use
+graph methods for better understanding.
