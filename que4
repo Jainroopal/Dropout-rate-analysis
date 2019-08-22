@@ -1,0 +1,11 @@
+Imagine we get individual student's data with their activity of attendance of every school in India, Please suggest some solution (In words, Not code).
+We have this type of data format.
+{"state":"Gujarat","schoolId":"10f658d42","standard":"11","studentId":"37e6893a7978c","Attended":"1","timestamp":"11-02-11 16:47:35,985 +0000"}
+We need to understand firstly that what is dropout rate.
+A  dropout  is  a  pupil  who  leaves  school  before  the  completion  of  a  school  stage  or  leaving  at  some  intermediate  or  non-terminal  point  of  a  given  level  of  education  (school stage). 
+This term ‘dropout’ has been used in two senses. It may mean either: (i) one who has discontinued  education  before  completing  the  last  level  of  education  for  which  
+18 he/she  was  enrolled  or  (ii)  one  who  has  discontinued  education  before  attaining  a  specific   level.   According   to   the   first   definition,   for   example,   if   a   person   has   completed the upper primary level 
+but does not enroll for higher education, he/she is not considered a dropout. It is considered as a case of discontinuation. However, if the  person  enrolls  for  the  secondary  level  but  does  not  complete  it,  then  he/she  is  considered  a  dropout. 
+According  to  the  second  definition,  in  either  case  the  person  would  be  considered  a  dropout,  when,  secondary  level  is  considered  as  specific  level.
+If a student is absent regularly for some specific time then we can consider it as dropout.By the data we can calculate dropout rate 
+standardwise.And in this data we have studentid also so we can get his/her enrollment details for further classes. Then we can filter the data according to state.After this we can calculate avrage,minimum,highest dropout rate of states and can make analysis on them.
